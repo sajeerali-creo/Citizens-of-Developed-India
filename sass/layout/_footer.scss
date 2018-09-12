@@ -1,0 +1,91 @@
+// footer
+// ======================================================
+footer {
+  padding: 4em 0;
+  background: $black;
+
+  i {
+    color: $white;
+    font-size: 30px;
+    display: block;
+    padding-bottom: 1em;
+  }
+
+  span {
+    font-size: .9em;
+    color: $white;
+    padding-top: 1em;
+    display: block;
+  }
+
+  h3 {
+    font-size: 1em;
+    font-weight: 600;
+    color: $white;
+    display: block;
+    padding-bottom: 2em;
+    text-align: right;
+  }
+
+  ul {
+    li {
+      a {
+        color: $white;
+        opacity: .6;
+        display: block;
+        text-align: right;
+        font-weight: normal;
+        line-height: 25px;
+
+        &:hover {
+          opacity: .6;
+        }
+      }
+    }
+  }
+
+  .border-top {
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+    margin-top: 2em;
+
+    h3 {
+      text-align: left;
+    }
+
+  }
+
+  .social-media {
+    float: right;
+    margin-top: 7em;
+
+    li {
+      display: inline-block;
+
+      a {
+        display: inline-block;
+        font-size: 1.5em;
+        color: $white!important;
+        text-align: right;
+        padding: 0 20px;
+      }
+    }
+  }
+
+  .small-link {
+    float: right;
+
+    li {
+      display: inline-block;
+
+      a {
+        margin: 1em;
+        padding-left: 1em;
+        font-size: .9em;
+      }
+    }
+  }
+
+  .border-left {
+    border-left: 1px solid #fff;
+  }
+}

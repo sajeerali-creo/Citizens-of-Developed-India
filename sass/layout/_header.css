@@ -1,0 +1,11 @@
+header {
+  min-height: 75px;
+}
+
+header .logo {
+  width: 200px;
+}
+
+header .logo img {
+  height: 50px;
+}
